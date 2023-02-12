@@ -2,24 +2,24 @@ import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "reactstrap";
 import SectionSubtitle from "./SectionSubtitle";
 import classes from "@/styles/portofolio.module.css";
-import portfolioData, { portfolioDetail } from './data';
+import  {portfolio ,portfolioDetail } from './data';
 import PortfolioItem from "./PortofolioItem";
 
 const Portfolio = () => {
-  const [filter, setFilter] = useState("Mobile App");
+  const [filter, setFilter] = useState("Web");
   const [data, setData] = useState([] as portfolioDetail[]);
 
   useEffect(() => {
     if (filter === "Mobile App") {
-      const filteredData:portfolioDetail[] = portfolioData.filter(
+      const filteredData:portfolioDetail[] = portfolio.filter(
         (item) => item.category === filter
       );
 
       setData(filteredData);
     }
 
-    if (filter === "Web Design") {
-      const filteredData = portfolioData.filter(
+    if (filter === "Web") {
+      const filteredData = portfolio.filter(
         (item) => item.category === filter
       );
 
@@ -50,11 +50,11 @@ const Portfolio = () => {
               </button>
               <button
                 className={`${
-                  filter === "Web Design" ? active : ""
+                  filter === "Web" ? active : ""
                 } secondary__btn text-white`}
-                onClick={() => setFilter("Web Design")}
+                onClick={() => setFilter("Web")}
               >
-                Web Design
+                Web
               </button>
             </div>
           </Col>

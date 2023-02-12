@@ -3,8 +3,9 @@ import SectionSubtitle from "./SectionSubtitle";
 import { Container, Row, Col } from "reactstrap";
 import Image from "next/image";
 import Link from "next/link";
-import heroImg from "@/../public/hero.jpg";
+import heroImg from "@/../public/tri.jpg";
 import classes from "@/styles/hero.module.css";
+import SosmedBtn from "./SosmedBtn";
 
 const Hero = () => {
   return (
@@ -14,21 +15,18 @@ const Hero = () => {
           {/* ========== hero content ============= */}
           <Col lg="6" md="6">
             <div className={`${classes.hero__content}`}>
-              <SectionSubtitle subtitle="Hello" />
-              <h2 className="mt-3 mb-3">I&apos;m Muhibur Rahman</h2>
+              <SectionSubtitle subtitle="Hello👋" />
+              <h2 className="mt-3 mb-3">I&apos;m Tri Ramdhani</h2>
               <h5 className="mb-4">Frontend Developer</h5>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Impedit rem sint ipsa cumque. Atque rem vel iusto impedit omnis
-                quos!
+              A person who loves to code, anime, and books. Welcome to my personal website, where you can find my portfolio. And Know me More.
               </p>
-              <div className="mt-5">
+              <div>
+                <SosmedBtn/>
+              </div>
+              <div className="mt-4">
                 <button className="primary__btn">
-                  <Link href="#">Hire me</Link>
-                </button>
-
-                <button className="secondary__btn">
-                  <Link href="#">Download CV</Link>
+                  <Link href="#">Resume</Link>
                 </button>
               </div>
             </div>
@@ -69,7 +67,7 @@ const Hero = () => {
                 </span>
                 <div className="bg-transparent">
                   <h6>Experience</h6>
-                  <h5 className="mb-0">4 Years</h5>
+                  <h5 className="mb-0">1 Years</h5>
                 </div>
               </div>
             </div>

@@ -6,88 +6,71 @@ export interface portfolioDetail {
   keyword: string[]
   liveUrl: string
 }
+export interface logoDataTypes {
+  img: string
+  name: string
 
-const portfolio:portfolioDetail[] = [
+}
+export const logoData:logoDataTypes[] = [
+  {
+    img: 'react.svg',
+    name: 'React JS'
+  },
+  {
+    img: 'typescript.svg',
+    name: 'TypeScript'
+  },
+  {
+    img: 'javascript.svg',
+    name: 'Javascript'
+  },
+  {
+    img: 'nextjs.svg',
+    name: 'Next JS'
+  },
+  {
+    img: 'firebase.svg',
+    name: 'Firebase'
+  },
+  {
+    img: 'nodejs.svg',
+    name: 'Node JS'
+  },
+  {
+    img: 'github.svg',
+    name: 'Github'
+  }
+]
+
+export const portfolio:portfolioDetail[] = [
     {
       id: "01",
-      title: "Transportation Mobile App",
-      img: "/images/portfolio-01.jpg",
-      category: "Mobile App",
-      keyword: ["Mobile", "App", "UI-UX"],
-      liveUrl: "#",
+      title: "FreshTube Video Player",
+      img: "/porto/freshtube.png",
+      category: "Web",
+      keyword: ["React", "Web", "react-query"],
+      liveUrl: "https://freshtube-client.vercel.app/",
     },
   
     {
       id: "02",
-      title: "Workout Tracker App",
-      img: "/images/portfolio-02.jpg",
-      category: "Mobile App",
-      keyword: ["Mobile", "App", "UI-UX"],
-      liveUrl: "#",
+      title: "Meditation Landing Page",
+      img: "/porto/meditaton.png",
+      category: "Web",
+      keyword: ["web", "Slicing", "HTML/Css"],
+      liveUrl: "https://triramdhani.github.io/meditation-landingPage/",
     },
   
     {
       id: "03",
-      title: "Fashion Shopping App",
-      img: "/images/portfolio-03.jpg",
-      category: "Mobile App",
-      keyword: ["Mobile", "App", "UI-UX"],
-      liveUrl: "#",
+      title: "Odin Eatch a Scatch",
+      img: "/porto/odin.png",
+      category: "Web",
+      keyword: ["HTML/CSS", "Web", "Javascript"],
+      liveUrl: "https://triramdhani.github.io/Odin-Etch-A-Scatch/",
     },
   
-    {
-      id: "04",
-      title: "Fashion Shopping App",
-      img: "/images/portfolio-04.jpg",
-      category: "Mobile App",
-      keyword: ["Mobile", "App", "UI-UX"],
-      liveUrl: "#",
-    },
-  
-    {
-      id: "05",
-      title: "Furniture Shopping App",
-      img: "/images/portfolio-05.jpg",
-      category: "Mobile App",
-      keyword: ["Mobile", "App", "UI-UX"],
-      liveUrl: "#",
-    },
-  
-    {
-      id: "06",
-      title: "Travel  App",
-      img: "/images/portfolio-06.jpg",
-      category: "Mobile App",
-      keyword: ["Mobile", "App", "UI-UX"],
-      liveUrl: "#",
-    },
-  
-    {
-      id: "07",
-      title: "Portfolio Website",
-      img: "/images/portfolio-07.png",
-      category: "Web Design",
-      keyword: ["Web", "Web design", "UI-UX"],
-      liveUrl: "#",
-    },
-  
-    {
-      id: "08",
-      title: "Restaurant Website",
-      img: "/images/portfolio-08.png",
-      category: "Web Design",
-      keyword: ["Web", "Web design", "UI-UX"],
-      liveUrl: "#",
-    },
-  
-    {
-      id: "09",
-      title: "Agency Website",
-      img: "/images/portfolio-09.png",
-      category: "Web Design",
-      keyword: ["Web", "Web design", "UI-UX"],
-      liveUrl: "#",
-    },
+    
   ];
   
-  export default portfolio;
+  // export default portfolio;

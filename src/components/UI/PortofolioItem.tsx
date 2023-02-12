@@ -18,7 +18,7 @@ const PortfolioItem = (prop:portfolioDetail) => {
       </div>
 
       <div className={`${classes.portfolio__img}`}>
-        <Image alt="portfolio-img" src={img} width="380" height="250" />
+        <Image alt="portfolio-img" src={img} width={"260"} height={"200"}/>
       </div>
 
       <div className={`${classes.portfolio__live} bg-transparent`}>

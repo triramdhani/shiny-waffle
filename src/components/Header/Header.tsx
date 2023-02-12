@@ -59,7 +59,7 @@ const Header = () => {
           {/* ======== navigation logo ======== */}
           <div className={`${classes.logo}`}>
             <h1>
-              <span>T</span>ri
+              <span>T</span>ri.dev
             </h1>
           </div>
 

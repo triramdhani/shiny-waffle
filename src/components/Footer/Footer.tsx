@@ -2,6 +2,7 @@
 import { Container, Row, Col } from "reactstrap";
 import classes from "./footer.module.css";
 import Link from "next/link";
+import SosmedBtn from "../UI/SosmedBtn";
 
 const NAV__LINK = [
   {
@@ -13,8 +14,8 @@ const NAV__LINK = [
     display: "About",
   },
   {
-    path: "#services",
-    display: "Services",
+    path: "#Skills",
+    display: "Skills",
   },
   {
     path: "#portfolio",
@@ -54,6 +55,9 @@ function Footer() {
                 reserved.{" "}
               </p>
             </div>
+          </Col>
+          <Col lg="2">
+                
           </Col>
         </Row>
       </Container>
