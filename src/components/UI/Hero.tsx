@@ -4,7 +4,7 @@ import { Container, Row, Col } from "reactstrap";
 import Image from "next/image";
 import Link from "next/link";
 import heroImg from "@/../public/tri.jpg";
-import classes from "@/styles/hero.module.css";
+import classes from "@/styles/Hero.module.css";
 import SosmedBtn from "./SosmedBtn";
 
 const Hero = () => {

@@ -1,6 +1,6 @@
 // import classes from '@/components/Footer/Footer.module.css'
 import { Container, Row, Col } from "reactstrap";
-import classes from "./footer.module.css";
+import classes from "@/components/Footer/Footer.module.css";
 import Link from "next/link";
 import SosmedBtn from "../UI/SosmedBtn";
 
