@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>tri.dev</title>
+        <title>Tri Ramdhani - Front End Dev</title>
         <meta name="description" content="Portofolio Project Showcase" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
