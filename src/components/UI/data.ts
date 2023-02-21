@@ -5,6 +5,7 @@ export interface portfolioDetail {
   category: string
   keyword: string[]
   liveUrl: string
+  githubUrl: string
 }
 export interface logoDataTypes {
   img: string
@@ -50,6 +51,7 @@ export const portfolio:portfolioDetail[] = [
       category: "Web",
       keyword: ["React", "Web", "react-query"],
       liveUrl: "https://freshtube-client.vercel.app/",
+      githubUrl: 'https://github.com/triramdhani/freshtube-client'
     },
   
     {
@@ -59,6 +61,8 @@ export const portfolio:portfolioDetail[] = [
       category: "Web",
       keyword: ["web", "Slicing", "HTML/Css"],
       liveUrl: "https://meditation-rho.vercel.app",
+      githubUrl: 'https://github.com/triramdhani/meditation-landingPage'
+
     },
   
     {
@@ -68,6 +72,7 @@ export const portfolio:portfolioDetail[] = [
       category: "Web",
       keyword: ["HTML/CSS", "Web", "Javascript"],
       liveUrl: "https://triramdhani.github.io/Odin-Etch-A-Scatch/",
+      githubUrl: "https://github.com/triramdhani/Odin-Etch-A-Scatch"
     },
   
     

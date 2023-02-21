@@ -36,6 +36,9 @@
     margin-top: 30px;
     display: none;
   }
+  .portfolio__live button {
+    margin-right: 20px;
+  }
   
   .portfolio__item:hover .portfolio__live {
     margin-left: 0;
