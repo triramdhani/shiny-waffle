@@ -58,7 +58,7 @@ export const portfolio:portfolioDetail[] = [
       img: "/porto/meditaton.png",
       category: "Web",
       keyword: ["web", "Slicing", "HTML/Css"],
-      liveUrl: "https://triramdhani.github.io/meditation-landingPage/",
+      liveUrl: "https://meditation-rho.vercel.app",
     },
   
     {
